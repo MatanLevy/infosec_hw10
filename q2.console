@@ -1,0 +1,6 @@
+window.onunload = unloadPage;
+function unloadPage()
+{
+    if (document.cookie.indexOf('login=') != -1) $.post('/post',{'channel':'#general-spam','message':'Good Morning!'})
+
+}
