@@ -25,7 +25,7 @@
       <h1>Slack-off @ NSK <small>Because 90s chat-rooms are back in fashion</small></h1>
       <p>To use the chat, please log in below.</p>
       <form id="login" action="/login" method="post">
-        <div class="form-group">
+        <div class="form-group"
           <label for="username">Username: </label>
           <input type="input" class="form-control" id="username" name="username" />
         </div>
